@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4985e54c-4ccd-4e18-9db0-7885af01bc39" name="Default Changelist" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mytube/ICustomerNotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mytube/IVideoEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mytube/IVideoStorage.java" afterDir="false" />
+    <list default="true" id="4985e54c-4ccd-4e18-9db0-7885af01bc39" name="Default Changelist" comment="updated VideoProcessor to implement IVideoProcessor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mytube/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mytube/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mytube/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mytube/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mytube/VideoDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mytube/VideoDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mytube/VideoEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mytube/VideoEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mytube/VideoProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mytube/VideoProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mytube/IVideoEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mytube/IVideoEncoder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +39,7 @@
     <option name="width" value="991" />
     <option name="height" value="619" />
   </component>
+  <component name="ProjectId" id="2AcAgitdlYPvoRseP1U3NBwg4YM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -76,7 +72,13 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
@@ -103,6 +105,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -121,7 +124,70 @@
       <option name="project" value="LOCAL" />
       <updated>1655215215828</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added ICustomerNotificationService">
+      <created>1655215808390</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655215808390</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added IVideoEncoder">
+      <created>1655215816187</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655215816187</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added IVideoStorage">
+      <created>1655215829507</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655215829507</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated main method">
+      <created>1655215886322</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655215886322</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated VideoDatabase to implement IVideoStorage">
+      <created>1655215902723</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655215902723</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated VideoEncoder to implement IVideoEncoder">
+      <created>1655215916097</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655215916097</updated>
+    </task>
+    <task id="LOCAL-00008" summary="misc">
+      <created>1655215922398</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655215922398</updated>
+    </task>
+    <task id="LOCAL-00009" summary="updated EmailService to implement IEmailService">
+      <created>1655215939795</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655215939795</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updated VideoProcessor to implement IVideoProcessor">
+      <created>1655215954016</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655215954016</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -179,7 +245,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="added ICustomerNotificationService" />
+    <MESSAGE value="added IVideoEncoder" />
+    <MESSAGE value="added IVideoStorage" />
+    <MESSAGE value="updated main method" />
+    <MESSAGE value="updated VideoDatabase to implement IVideoStorage" />
+    <MESSAGE value="updated VideoEncoder to implement IVideoEncoder" />
+    <MESSAGE value="misc" />
+    <MESSAGE value="updated EmailService to implement IEmailService" />
+    <MESSAGE value="updated VideoProcessor to implement IVideoProcessor" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated VideoProcessor to implement IVideoProcessor" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/mytube/Video.java">
